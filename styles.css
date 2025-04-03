@@ -1,0 +1,98 @@
+/* Reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Font Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to bottom, #a18cd1, #ff9a9e);
+    color: #333;
+    font-size: 20px;
+    line-height: 2;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header Section */
+header {
+    background: linear-gradient(to right, #a18cd100, #a19aff);
+    color: black;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header-container h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.header-container p {
+    font-size: 22px;
+}
+
+/* About Lumbini Section */
+.about-lumbini {
+    background: linear-gradient(to bottom, #ff9a9dc2, #a18cd1);
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about-lumbini h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-lumbini p {
+    font-size: 20px;
+    text-align: justify;
+    line-height: 2;
+    margin-bottom: 20px;
+}
+
+/* Image Styling */
+.lumbini-image {
+    display: block;
+    margin: 20px auto;
+    max-width: 80%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Features Section */
+.features {
+    background: linear-gradient(to right, #a18cd1, #ff9a9e);
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.features h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.features ul {
+    list-style: none;
+    padding: 0;
+}
+
+.features li {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+/* Footer Section */
+footer {
+    background-color: #34495e;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container p {
+    font-size: 18px;
+}
