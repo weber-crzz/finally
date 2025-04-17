@@ -63,3 +63,37 @@ footer {
     margin-top: 20px;
     border-radius: 10px;
 }
+/* Social Media Icons */
+
+.social-icons {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.social-icons a {
+    margin: 10px;
+    color: #333;
+    font-size: 40px;
+    transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #0077b5;
+    transform: scale(1.2);
+}
+
+.fab.fa-facebook:hover {
+    color: #3b5998;
+}
+
+.fab.fa-instagram:hover {
+    color: #e4405f;
+}
+
+.fab.fa-twitter:hover {
+    color: #1da1f2;
+}
+
+.fab.fa-youtube:hover {
+    color: #ff0000;
+}
